@@ -14,7 +14,6 @@ eureka:
     service-url:
       defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka
 
-#暴露refresh端点，供动态更新配置使用
 management:
   endpoints:
     web:
